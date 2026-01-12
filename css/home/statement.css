@@ -1,0 +1,56 @@
+.statement {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: var(--p1);
+  overflow: hidden;
+}
+
+.statement img {
+  border-radius: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.statement_content {
+  padding: 40px 40px 80px 80px;
+  align-self: end;
+}
+
+.statement_content p {
+  max-width: 32ch;
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.statement p::before,
+.statement p::after {
+  font-size: 5rem;
+  color: var(--p2);
+  position: absolute;
+}
+
+.statement p::before {
+  content: "“";
+  left: -50px;
+  top: -20px;
+}
+
+.statement p::after {
+  content: "”";
+}
+
+@media (max-width: 800px) {
+  .statement {
+    text-align: center;
+    grid-template-columns: 1fr;
+  }
+  .statement_content {
+    padding: 40px 20px;
+    margin: auto;
+  }
+
+  .statement img {
+    max-height: 200px;
+  }
+}
