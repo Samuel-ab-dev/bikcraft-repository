@@ -10,6 +10,7 @@
 .button {
   display: inline-block;
   padding: 16px 32px;
+  max-width: max-content;
   background: var(--gradient);
   border-radius: 4px;
   box-shadow: var(--shadow);
@@ -20,6 +21,16 @@
 
 .button:hover {
   background: var(--gradient_shadow);
+}
+
+.button.two {
+  background: var(--c10);
+  color: var(--c2);
+}
+
+.button.two:hover {
+  background: var(--c9);
+  color: var(--c2);
 }
 
 .link {

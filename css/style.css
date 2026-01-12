@@ -2,9 +2,11 @@
 @import "./utilities/colors.css";
 @import "./utilities/typo.css";
 @import "./home/intro.css";
-@import "./home/header.css";
+@import "./global/header.css";
 @import "./utilities/utilities.css";
 @import "./bikes/bikes.css";
 @import "./home/tecno.css";
 @import "./home/partners.css";
 @import "./home/statement.css";
+@import "./insurance/insurance.css";
+@import "./global/footer.css";
