@@ -60,4 +60,11 @@
   .bike_list ul {
     gap: 20px;
   }
+
+  .bike_list a:hover h3::before {
+    width: 12px;
+  }
+  .bike_list h3::before {
+    transition: none;
+  }
 }
