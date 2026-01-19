@@ -16,3 +16,6 @@
 @import "./insurance/questions.css";
 @import "./bike/bike.css";
 @import "./bike/insurance-bike.css";
+@import "./utilities/formulary.css";
+@import "../contato/contact.css";
+@import "../contato/stores.css";
