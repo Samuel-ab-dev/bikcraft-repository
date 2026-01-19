@@ -13,6 +13,14 @@
   overflow-x: auto;
 }
 
+#bike .bike_list {
+  padding-top: var(--padding);
+}
+
+#bike .bike_list ul {
+  padding: 0px 0px 20px 0px;
+}
+
 .bike_list li {
   min-width: 280px;
 }
@@ -66,5 +74,8 @@
   }
   .bike_list h3::before {
     transition: none;
+  }
+  #bike .bike_list {
+    padding-top: var(--padding);
   }
 }
