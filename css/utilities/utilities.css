@@ -10,13 +10,16 @@
 .button {
   display: inline-block;
   padding: 16px 32px;
-  max-width: max-content;
+  width: max-content;
+  height: max-content;
   background: var(--gradient);
   border-radius: 4px;
   box-shadow: var(--shadow);
   text-transform: uppercase;
   color: var(--p5);
-  font: 600 1.125rem/1.35 "Poppins", sans-serif;
+  font:
+    600 1.125rem/1.35 "Poppins",
+    sans-serif;
   border: none;
   cursor: pointer;
 }
@@ -63,6 +66,10 @@
   background: var(--c11);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.title {
+  background: url("../../img/dec/top-right.svg") no-repeat top right 20px;
 }
 
 .title p {
